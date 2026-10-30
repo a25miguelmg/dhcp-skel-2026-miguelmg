@@ -10,7 +10,13 @@
     "valid-lifetime": 600,
     "rebind-timer": 500,
     "authoritative": true,
-    "renew-timer": 300
+    "renew-timer": 300,
+    "subnet4":[{
+      "subnet": "192.168.10.0/24",
+      "pools":[{"pool":"192.168.10.30 - 192.168.10.32"},
+               {"pool":"192.168.10.101 - 192.168.10.230"}]
+        
+    }]
     
   }
 }
